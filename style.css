@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: aquamarine; */
+}
+
+.navbar {
+    width: 100%;
+    position: sticky;
+    background-color: #6E6E6E;
+}
+
+.navbar div {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.navbar img {
+    width: 5%;
+
+}
+
+.navbar ul {
+    align-items: center;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.navbar ul li {
+    list-style: none;
+}
+
+.navbar ul li a {
+    font-family: Monospace;
+
+    font-size: xx-large;
+    color: white;
+    padding: 0.75rem;
+    margin: 0 0.25rem;
+    text-decoration: none;
+    list-style: none;
+}
+
+.navbar ul li a:hover {
+    background-color: #BCFD4C;
+    color: rgb(0, 0, 0);
+    border-radius: 3px;
+}
+
+.header {
+    background: url(../Project/images/showcase.jpg) no-repeat center center/cover;
+    height: 100vh;
+}
+
+.header .center {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 0 100px;
+}
+
+.header .center h1 {
+    padding-bottom: 20px;
+}
+
+.header .center p {
+    padding-bottom: 20px;
+
+}
+
+.header .center button {
+    background-color: #BCFD4C;
+    border: none;
+    width: 20%;
+    height: 35px;
+}
+
+.header .center button:hover {
+    background-color: #6E6E6E;
+    border: none;
+    width: 25%;
+    height: 40px;
+}
+
+.section1 div {
+    padding: 3%;
+
+}
+
+.section1 h2 {
+    text-align: center;
+}
+
+.section1 .threeitems {
+
+    display: flex;
+    text-align: center;
+}
+
+.section1 .threeitems .item {
+    margin: 2%;
+    padding: 20px;
+    border: 1px dashed;
+    width: fit-content;
+    height: fit-content;
+    flex: 1;
+    padding: 2px;
+}
+
+.section1 .threeitems div h4 {
+    padding: 20px;
+}
+
+.section1 .threeitems div p {
+    padding-bottom: 20px;
+}
+
+.section1 .threeitems div img {
+    background-color: #BCFD4C;
+    border-radius: 50%;
+    width: 15%;
+}
+
+.section2 {
+    display: flex;
+
+}
+
+.section2 .img {
+    background: url(../Project/images/section2.jpg) no-repeat center center/cover;
+
+}
+
+.section2 div {
+    padding: 10%;
+    text-align: center;
+    flex: 1
+}
+
+.section2 .text {
+    background-color: #6E6E6E;
+}
+
+.section2 .text h3 {
+    padding: 10px;
+}
+
+.section2 .text p {
+    padding: 10px;
+}
+
+.section2 .text li {
+    padding: 5px;
+    list-style: none;
+}
+
+.section3 {
+    padding: 4rem;
+}
+
+.section3 .images {
+    display: flex;
+
+}
+
+.section3 .images div {
+    display: flex;
+    justify-content: space-around;
+    flex: 1;
+}
+
+.section3 .images img {
+    width: 40%;
+    display: block;
+    border-radius: 50%;
+}
+
+.section4 {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    background-color: #6E6E6E;
+}
+
+.section4 .contact {
+    flex-basis: 600px;
+    text-align: center;
+}
+
+.contact label {
+
+    display: block;
+    padding: 10px;
+}
+
+.contact textarea,
+input {
+    border-radius: 3px;
+    width: 100%;
+    padding: 10px;
+}
+
+.contact p {
+    padding: 10px;
+}
+
+.footer div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #BCFD4C;
+}
+
+
+.footer div img {
+    width: 7%;
+}
